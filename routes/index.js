@@ -47,7 +47,7 @@ router.route('/admindashboard').get(isAdmin,(req, res) => {
 });
 
 // Vendor Dashboard
-router.get('/vendordashboard',isVendor, (req, res) => res.render('Vendordashboard'));
+router.get('/vendordashboard',isVendor, (req, res) => res.render('vendordashboard'));
 
 // Services
 router.get('/services', isUser, (req, res) => res.render('services'));
